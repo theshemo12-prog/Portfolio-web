@@ -945,3 +945,221 @@ select:focus-visible {
     height: 105px;
   }
 }
+
+@media (max-width: 720px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .shell {
+    display: block;
+    min-height: 100vh;
+    padding-bottom: 76px;
+  }
+
+  .rail {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    padding: 7px 8px;
+    border-top: 1px solid var(--line);
+    border-right: 0;
+    background: var(--paper);
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    box-shadow: 0 -8px 24px #20211e12;
+  }
+
+  .brand,
+  .workspace,
+  .project {
+    display: none;
+  }
+
+  .nav-link,
+  .profile {
+    flex: 1;
+    min-width: 0;
+    width: auto;
+    height: 54px;
+    margin: 0 2px;
+    padding: 6px 3px;
+    border: 0;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link span,
+  .profile div:not(.avatar) {
+    display: none;
+  }
+
+  .nav-link {
+    flex-direction: column;
+  }
+
+  .nav-icon {
+    width: auto;
+    font-size: 20px;
+  }
+
+  .profile {
+    margin-top: 0;
+    padding: 6px 3px;
+  }
+
+  .main {
+    width: 100%;
+    max-width: none;
+    padding: 20px 16px 32px;
+  }
+
+  .topbar {
+    margin-bottom: 34px;
+  }
+
+  .date {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .top-actions {
+    gap: 7px;
+  }
+
+  .icon-btn {
+    font-size: 17px;
+    padding: 4px;
+  }
+
+  .search-box {
+    top: 42px;
+    right: 54px;
+    width: min(210px, calc(100vw - 70px));
+  }
+
+  .notice-pop {
+    top: 42px;
+    right: 4px;
+  }
+
+  .hero {
+    margin-bottom: 32px;
+  }
+
+  .hero h1,
+  .profile-page h1 {
+    font-size: 34px;
+  }
+
+  .stats {
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  .stat strong {
+    font-size: 20px;
+  }
+
+  .hero > div:last-child {
+    margin-top: 24px;
+  }
+
+  .hero .ai-btn {
+    float: none;
+    margin-top: 0;
+  }
+
+  .ai-note {
+    margin-top: 14px;
+  }
+
+  .toolbar {
+    align-items: stretch;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .tabs {
+    flex: 1 1 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .tab {
+    flex: 1;
+    text-align: center;
+  }
+
+  .new-task {
+    width: 100%;
+  }
+
+  .task {
+    grid-template-columns: 25px minmax(0, 1fr);
+    gap: 10px;
+    padding: 16px 0;
+  }
+
+  .task-title {
+    overflow-wrap: anywhere;
+  }
+
+  .task-actions {
+    grid-column: 2;
+    min-width: 0;
+    margin-top: -3px;
+  }
+
+  .due {
+    overflow-wrap: anywhere;
+  }
+
+  .modal-backdrop {
+    padding: 12px;
+    align-items: end;
+  }
+
+  .modal {
+    max-height: calc(100vh - 24px);
+    overflow-y: auto;
+    padding: 21px;
+  }
+
+  .modal-footer {
+    flex-direction: column-reverse;
+  }
+
+  .cancel,
+  .submit {
+    width: 100%;
+  }
+
+  .profile-page {
+    margin: 8px 0;
+  }
+
+  .profile-fields {
+    padding: 42px 18px 20px;
+  }
+
+  .assistant-panel {
+    right: 10px;
+    bottom: 78px;
+    left: 10px;
+    width: auto;
+    height: min(620px, calc(100vh - 100px));
+  }
+
+  .assistant-fab {
+    right: 16px;
+    bottom: 82px;
+  }
+}
