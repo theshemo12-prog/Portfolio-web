@@ -119,13 +119,14 @@ This project was built to practice:
 
 ## 📸 Screenshots
 
-Add screenshots of your application here:
+<img width="1285" height="861" alt="image" src="https://github.com/user-attachments/assets/c2ab8aff-b747-40bb-997f-c0fcfb50dbfd" />
 
-```text
-screenshots/
-├── dashboard.png
-├── add-task.png
-└── completed-tasks.png
+<img width="1911" height="913" alt="image" src="https://github.com/user-attachments/assets/75b9f89d-d4b0-44ea-ab4e-642d98dc7bc8" />
+
+<img width="1906" height="912" alt="image" src="https://github.com/user-attachments/assets/d08829dd-1e4e-49ff-b8ce-ba1153ad55c5" />
+
+
+
 ```
 
 Example:
